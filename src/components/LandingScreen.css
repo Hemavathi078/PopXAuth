@@ -1,0 +1,39 @@
+.landing-screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.landing-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 30px 120px 30px;
+  text-align: center;
+}
+
+.landing-text {
+  margin-bottom: 40px;
+}
+
+.landing-buttons {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 480px) {
+  .landing-content {
+    padding: 0 20px 100px 20px;
+  }
+  
+  .landing-text {
+    margin-bottom: 30px;
+  }
+}

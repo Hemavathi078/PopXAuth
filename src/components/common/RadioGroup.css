@@ -1,0 +1,36 @@
+.radio-group-label {
+  display: block;
+  font-size: 10px;
+  color: #8b5cf6;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.required-star {
+  color: #dc3545;
+  margin-left: 1px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.radio-option input[type="radio"] {
+  width: 14px;
+  height: 14px;
+  accent-color: #8b5cf6;
+}
+
+.radio-option label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
